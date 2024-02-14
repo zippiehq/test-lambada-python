@@ -1,4 +1,4 @@
-FROM --platform=linux/riscv64 ghcr.io/stskeeps/python:3.10-slim-jammy
+FROM --platform=linux/riscv64 ghcr.io/stskeeps/python:3.10-slim-jammy-estargz
 ENV PATH="/opt/cartesi/bin:${PATH}"
 
 WORKDIR /opt/cartesi/dapp
